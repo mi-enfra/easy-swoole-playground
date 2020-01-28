@@ -1,0 +1,13 @@
+{
+  "name": "marvinenf/easy-swoole-playground",
+  "authors": [
+    {
+      "name": "Marvin Isaac",
+      "email": "misaac@pushnami.com"
+    }
+  ],
+  "require": {
+    "easyswoole/easyswoole": "3.x"
+  },
+  "require-dev": {}
+}
