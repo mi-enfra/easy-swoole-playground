@@ -1,13 +1,17 @@
 {
-  "name": "marvinenf/easy-swoole-playground",
-  "authors": [
-    {
-      "name": "Marvin Isaac",
-      "email": "misaac@pushnami.com"
+    "name": "marvinenf/easy-swoole-playground",
+    "authors": [
+        {
+            "name": "Marvin Isaac",
+            "email": "misaac@pushnami.com"
+        }
+    ],
+    "require": {
+        "easyswoole/easyswoole": "3.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
     }
-  ],
-  "require": {
-    "easyswoole/easyswoole": "3.x"
-  },
-  "require-dev": {}
 }

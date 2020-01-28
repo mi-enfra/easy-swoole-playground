@@ -1,0 +1,12 @@
+[2020-01-28 22:43:35 #1.1]	WARNING	swServer_signal_handler: Fatal Error: manager process exit. status=0, signal=[Interrupt: 2]
+[2020-01-28 22:43:49 #1.1]	INFO	Server is shutdown now
+[2020-01-28 22:43:49 #1.1]	WARNING	swFactoryProcess_shutdown(:69): swKill(17) failed, Error: No such process[3]
+[2020-01-28 22:43:49 #1.1]	WARNING	swFactoryProcess_shutdown(:74): waitpid(17) failed, Error: No child processes[10]
+[2020-01-28 22:44:32 #1.1]	WARNING	swServer_signal_handler: Fatal Error: manager process exit. status=0, signal=[Interrupt: 2]
+[2020-01-28 22:44:44 #1.1]	INFO	Server is shutdown now
+[2020-01-28 22:44:44 #1.1]	WARNING	swFactoryProcess_shutdown(:69): swKill(17) failed, Error: No such process[3]
+[2020-01-28 22:44:44 #1.1]	WARNING	swFactoryProcess_shutdown(:74): waitpid(17) failed, Error: No child processes[10]
+[2020-01-28 22:52:18 #1.1]	WARNING	swServer_signal_handler: Fatal Error: manager process exit. status=0, signal=[Interrupt: 2]
+[2020-01-28 22:53:14 #1.1]	INFO	Server is shutdown now
+[2020-01-28 22:53:14 #1.1]	WARNING	swFactoryProcess_shutdown(:69): swKill(17) failed, Error: No such process[3]
+[2020-01-28 22:53:14 #1.1]	WARNING	swFactoryProcess_shutdown(:74): waitpid(17) failed, Error: No child processes[10]
