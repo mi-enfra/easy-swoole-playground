@@ -1,8 +1,10 @@
-docker run -it --rm \
+docker pull phpswoole/swoole:4.4.15-php7.1
+
+docker run --rm \
     --name composer \
     --volume $PWD:/var/www \
     phpswoole/swoole:4.4.15-php7.1 \
-    "composer require easyswoole/easyswoole=3.x"
+    "composer install"
 
 docker run -it --rm \
     --name php \
