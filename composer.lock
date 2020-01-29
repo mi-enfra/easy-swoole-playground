@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3ab89e950aee7206a086f4c7bd460d6",
+    "content-hash": "d3c4ea22e35b0a708e088dd2c3ae0abd",
     "packages": [
         {
             "name": "dragonmantank/cron-expression",
@@ -363,6 +363,54 @@
                 "swoole"
             ],
             "time": "2019-05-30T05:30:17+00:00"
+        },
+        {
+            "name": "easyswoole/mysqli",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/easy-swoole/mysqli.git",
+                "reference": "cfc66e42071dd1a3565e07b37c4f466b66c7e659"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/easy-swoole/mysqli/zipball/cfc66e42071dd1a3565e07b37c4f466b66c7e659",
+                "reference": "cfc66e42071dd1a3565e07b37c4f466b66c7e659",
+                "shasum": ""
+            },
+            "require": {
+                "easyswoole/spl": "^1.2"
+            },
+            "require-dev": {
+                "easyswoole/phpunit": "^1.0",
+                "easyswoole/swoole-ide-helper": "^1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EasySwoole\\Mysqli\\": "src/",
+                    "EasySwoole\\Mysqli\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "YF",
+                    "email": "291323003@qq.com"
+                }
+            ],
+            "description": "An efficient swoole framework",
+            "homepage": "https://www.easyswoole.com/",
+            "keywords": [
+                "async",
+                "easyswoole",
+                "framework",
+                "swoole"
+            ],
+            "time": "2019-12-12T09:21:19+00:00"
         },
         {
             "name": "easyswoole/spl",
