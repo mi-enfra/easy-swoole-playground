@@ -17,3 +17,7 @@ docker run -it --rm \
     --volume $PWD:/var/www \
     phpswoole/swoole:4.4.15-php7.1 \
     "composer dump-autoload -o"
+
+sudo chown -R ${USER} *
+
+sudo apt-get install inotify-hookable -y
