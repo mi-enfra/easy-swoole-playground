@@ -4,3 +4,7 @@ docker run -d --rm \
     --volume $PWD:/var/www \
     phpswoole/swoole:4.4.15-php7.1 \
     "php easyswoole start"
+
+inotify-hookable \
+        --watch-directories ./App \
+        --on-modify-command 'docker restart easyswoole'
