@@ -14,14 +14,14 @@ class Router extends AbstractRouter
         $routeCollector->get(
             '/outbrain',
             function (Request $request, Response $response) {
-                $outbrain = new Outbrain();
+                $outbrain = new OUtbrain();
+                $result = $outbrain->hello();
+
                 $response->withHeader('Content-type', 'application/json');
-                $response->write(
-                    $outbrain->hello()
-                );
+                $response->write($result);
             }
         );
-        
+
         $routeCollector->addRoute(
             ['DELETE', 'GET', 'PATCH', 'POST', 'PUT'],
             '/[{path:.*}]',
